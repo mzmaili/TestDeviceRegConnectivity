@@ -23,8 +23,10 @@ Test-DeviceRegConnectivity PowerShell script helps to test the Internet connecti
 ![TestPass](https://github.com/mzmaili/TestDeviceRegConnectivity/blob/master/pass.png)
 
 - CSV file output: 
-![F1](https://github.com/mzmaili/TestDeviceRegConnectivity/blob/master/f1.PNG)
-![F2](https://github.com/mzmaili/TestDeviceRegConnectivity/blob/master/f2.PNG)
+
+![TestFail1](https://github.com/mzmaili/TestDeviceRegConnectivity/blob/master/f1.png)
+
+![TestFail2](https://github.com/mzmaili/TestDeviceRegConnectivity/blob/master/f2.png)
 
 ```azurepowershell
 .SYNOPSIS 
