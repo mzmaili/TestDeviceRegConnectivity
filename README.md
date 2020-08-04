@@ -1,4 +1,4 @@
-# TestDeviceRegConnectivity
+# Test Device Registration Connectivity
 Test-DeviceRegConnectivity PowerShell script helps to test the Internet connectivity to the following Microsoft resources under the system context to validate the connection status between the device that needs to be connected to Azure AD as hybrid Azure AD joined device and Microsoft resources that are used during device registration process:
 
   - https://login.microsoftonline.com
