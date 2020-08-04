@@ -26,7 +26,7 @@ Test-DeviceRegConnectivity PowerShell script helps to test the Internet connecti
 
 ![TestFail1](https://github.com/mzmaili/TestDeviceRegConnectivity/blob/master/f1.png)
 
-![TestFail1](https://github.com/mzmaili/TestDeviceRegConnectivity/blob/master/f2.png)
+![TestFail2](https://github.com/mzmaili/TestDeviceRegConnectivity/blob/master/f2.png)
 
 > [!NOTE]
 > You can use [DSRegTool](https://github.com/mzmaili/DSRegTool) which is a comprehensive tool that performs more than 30 different tests that help you to identify and fix the most common device registration issues for all join types.
