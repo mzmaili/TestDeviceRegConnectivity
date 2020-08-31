@@ -91,7 +91,7 @@ if ($ProxyServer -eq "NoProxy"){
         Write-Host "Connection to device.login.microsoftonline.com .......... failed." -ForegroundColor Red 
     }
 
-    $PSScript = "(Invoke-WebRequest -uri 'https://enterpriseregistration.windows.net/zmailitech.net/discover?api-version=1.7' -UseBasicParsing -Headers @{'Accept' = 'application/json'; 'ocp-adrs-client-name' = 'dsreg'; 'ocp-adrs-client-version' = '10'}).StatusCode"
+    $PSScript = "(Invoke-WebRequest -uri 'https://enterpriseregistration.windows.net/microsoft.com/discover?api-version=1.7' -UseBasicParsing -Headers @{'Accept' = 'application/json'; 'ocp-adrs-client-name' = 'dsreg'; 'ocp-adrs-client-version' = '10'}).StatusCode"
     $TestResult = RunPScript -PSScript $PSScript
     if ($TestResult -eq 200){
         Write-Host "Connection to enterpriseregistration.windows.net ..... Succeeded." -ForegroundColor Green 
